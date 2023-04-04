@@ -391,3 +391,23 @@ main .container{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+.bottom i{
+    transition: 0.2s ease-out;
+}
+
+.card1:hover .bottom i{
+    transform: translateX(5px);
+}
+
+.card2:hover .bottom i{
+    transform: translateX(5px);
+}
+
+.allcol:hover .bottom i{
+    transform: translateX(5px);
+}
+
+.allrow:hover .bottom i{
+    transform: translateX(5px);
+}
