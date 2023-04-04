@@ -1,0 +1,148 @@
+@media (max-width:1010px){
+    
+    .container h2{
+        font-size: 1.5rem;
+    }
+    .container .text{
+        font-size: 0.7rem;
+    }
+    .card1 .head h2{
+        font-size: 2rem;
+    }
+    .card1 .head i{
+        font-size: 1.8rem;
+    }
+    .card2 h2{
+        margin-top: 100px;
+    }
+    .card2 .domain{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width:1003px){
+    .card2 h2{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:897px) {
+    nav .left button, .right button{
+        display: none;
+    }
+    nav .left h4{
+        width: 86%;
+    }
+
+    nav .response{
+        display: inline-block;
+    }
+
+    main .container{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .container .lhs{
+        width: 100%;
+    }
+
+    .allrow .image{
+        height:30rem;
+    }
+    .container .rhs{
+        width: 100%;
+    }
+
+    .card2 h2{
+        margin-top: 64px;
+    }
+
+}
+
+@media (max-width:652px){
+    .lower .allcol-2{
+        flex-direction: column;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .img-text{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .allcol .img-text .text{
+        margin-bottom: 10px;
+    }
+
+    .img-text .image, .img-text .alltext{
+        width: 100%;
+    }
+
+    .lower .allcol-2 .card1{
+        width: 100%;
+    }
+
+    .card1 .head h2{
+        font-size: 2.22rem;
+    }
+
+    .card1 .head i{
+        font-size: 2.1rem;
+    }
+
+    .container .text{
+        font-size: 0.9rem;
+    }
+
+    .lower .allcol-2 .card2{
+        width: 100%;
+    }
+    nav .response button{
+        /* font-size: 12px; */
+        width: 100px;
+    }
+}
+
+@media (max-width:768px){
+    .card2 h2{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:375px){
+    .container h2{
+        font-size: 1.4rem;
+    }
+    .container .text{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:290px){
+    nav .left h4{
+        width: 100%;
+        padding: 15px;
+        font-size: 14px 0;
+    }
+    nav .left{
+        width: 65%;
+    }
+    
+    nav .response button{
+        font-size: 12px;
+        width: 75px;
+        padding: 16px 0;
+    }
+
+    .card1 .head h2{
+        font-size: 1.6rem;
+    }
+    .card1 .head i{
+        font-size: 0.8rem;
+    }
+    .card2 .domain{
+        font-size: 0.6rem;
+    }
+
+}
